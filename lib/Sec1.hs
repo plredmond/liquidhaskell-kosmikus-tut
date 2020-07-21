@@ -52,8 +52,6 @@ i6 :: Int
 {-@ i6 :: { i : Int | i == 6 } @-}
 i6 = 6
 
--- TODO: report bug, i6x doesn't refine, and the error cannot be "ignore"d
-
 -- i6x :: Integer
 -- I6x = 6
 -- {-@ ignore i6x @-}
@@ -68,7 +66,3 @@ i6 = 6
 -- {-@ i7 :: Int @-}
 -- i7 :: Int
 -- i7 = 6
---
--- -- This is apparrently no longer a feature? It gives an error. Reported it on
--- -- the thread of errors which GHC doesn't get a proper eror report about:
--- -- https://github.com/ucsd-progsys/liquidhaskell/issues/1711#issuecomment-661507484
