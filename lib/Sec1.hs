@@ -53,7 +53,7 @@ i6 :: Int
 i6 = 6
 
 -- i6x :: Integer
--- I6x = 6
+-- i6x = 6
 -- {-@ ignore i6x @-}
 -- {-@ i6x :: { i : Int | i == 6 } @-}
 
